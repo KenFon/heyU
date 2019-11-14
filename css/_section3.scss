@@ -6,24 +6,33 @@
         width: 70px;
         object-position: left;
     }
+
     .bulledisc{
         border: 1px solid rgba(0, 0, 0, 0.3);
         padding:0.7rem;
+        position: relative;
     }
+
     .bulledisc2{
-        padding:0.5rem;
+        padding:0.7rem;
+        position:relative;
     }
-    .bulledisc:after, .bulledisc2:after{
+
+    .bulledisc::after, .bulledisc2::after{
         content: "";
         width: 20px;
         height: 20px;
         background-color: white;
         transform: rotate(45deg);
-        border-bottom:1px solid rgba(0, 0, 0, 0.3);
-        border-right:1px solid rgba(0, 0, 0, 0.3);
+        border-bottom:1px solid rgba(0, 0, 0, 0.4);
+        border-right:1px solid rgba(0, 0, 0, 0.4);
         position: absolute;
         right: 80%;
-        bottom:44.5%;
+        top:93%;
+    }
+    .bulledisc2::after{
+        border-bottom:1px solid rgba(0, 0, 0, 0.1);
+        border-right:1px solid rgba(0, 0, 0, 0.1);
     }
 
 }

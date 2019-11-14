@@ -1,0 +1,38 @@
+.section4{
+    margin-top:3rem;
+    display: flex;
+    align-items: center;
+    color:white;
+    .back{
+        position: absolute;
+        height: 26rem;
+        width: 100%;
+        background: linear-gradient(180deg,#d90647 14%, #e8402d 100%)
+    }
+    img{
+        object-position: center;
+    }
+
+    .contien-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 26rem;
+    }
+
+    .tel-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3{
+            font-size: 1.75rem;
+            font-weight: 600;
+        }
+        p{
+            font-size:0.75rem;
+        }
+        img{
+            height: 20px;
+        }
+    }
+}

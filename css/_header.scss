@@ -24,4 +24,16 @@ header{
     color: white;
     text-align: center;
     line-height: 5rem;
+    a{
+        color:#D90647 !important;
+        background-color:#FFF;
+        font-weight: 600;
+        padding: 10px 35px;
+        border-radius: 25px;
+    }
+    a:hover{
+        color:white !important;
+        background-color:$noir;
+        cursor: pointer;
+    }
 }
