@@ -148,4 +148,37 @@ header {
 hr {
   margin: 4rem;
 }
+
+.section3 img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 70px;
+  width: 70px;
+  -o-object-position: left;
+     object-position: left;
+}
+
+.section3 .bulledisc {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0.7rem;
+}
+
+.section3 .bulledisc2 {
+  padding: 0.5rem;
+}
+
+.section3 .bulledisc:after, .section3 .bulledisc2:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  position: absolute;
+  right: 80%;
+  bottom: 44.5%;
+}
 /*# sourceMappingURL=style.css.map */
