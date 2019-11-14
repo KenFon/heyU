@@ -1,0 +1,27 @@
+header{
+    background: rgb(217,6,71);
+    background: linear-gradient(180deg, rgba(217,6,71,1) 0%, rgba(239,76,55,1) 100%);
+    height: auto;
+}
+
+@media screen and(min-width:992px){
+    header::after{
+        height: 50vh;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        bottom: -20vh;
+        left:0;
+        transform: skewY(-7deg);
+        content:"";
+    }
+}
+
+.head-content{
+    position: relative;
+    padding-top: 27vh;
+    z-index: 99;
+    color: white;
+    text-align: center;
+    line-height: 5rem;
+}

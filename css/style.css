@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+body {
+  font-family: 'Lato', sans-serif !important;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 72px !important;
+}
+
+h2 {
+  font-size: 60px !important;
+}
+
+p {
+  font-size: 18px !important;
+}
+
+header {
+  background: #d90647;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d90647), to(#ef4c37));
+  background: linear-gradient(180deg, #d90647 0%, #ef4c37 100%);
+  height: auto;
+}
+
+@media screen and (min-width: 992px) {
+  header::after {
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: -20vh;
+    left: 0;
+    -webkit-transform: skewY(-7deg);
+            transform: skewY(-7deg);
+    content: "";
+  }
+}
+
+.head-content {
+  position: relative;
+  padding-top: 27vh;
+  z-index: 99;
+  color: white;
+  text-align: center;
+  line-height: 5rem;
+}
+
+#mainNav {
+  background-color: #D90647;
+}
+
+#mainNav .navbar-toggler {
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #D90647;
+}
+
+#mainNav .navbar-brand {
+  color: white;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #a70537;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  text-decoration: line-through;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  #mainNav .navbar-brand {
+    font-size: 2.75em;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #d90647;
+    background: -webkit-gradient(linear, left top, right top, from(#d90647), to(#ef4c37));
+    background: linear-gradient(90deg, #d90647 0%, #ef4c37 100%);
+    margin: 0;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.75em;
+    padding: 12px 0;
+  }
+}
+
+.section2 {
+  margin-top: 5vh;
+}
+
+.contienimage {
+  height: 600px;
+  margin-bottom: 2vh;
+}
+
+.img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% \9;
+  height: 500px !important;
+}
+
+.img2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100% \9;
+  height: 500px !important;
+}
+
+.ptsrouge {
+  color: red;
+}
+
+hr {
+  margin: 4rem;
+}
+/*# sourceMappingURL=style.css.map */
