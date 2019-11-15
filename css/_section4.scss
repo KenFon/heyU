@@ -18,6 +18,7 @@
         flex-direction: column;
         justify-content: space-between;
         height: 26rem;
+        margin-top:6rem;
     }
 
     .tel-text{
@@ -25,14 +26,26 @@
         justify-content: center;
         align-items: center;
         h3{
-            font-size: 1.75rem;
+            font-size: 1.5rem;
             font-weight: 600;
+            margin-bottom: 1.5rem;
         }
         p{
-            font-size:0.75rem;
+            font-size:1rem !important;
         }
         img{
             height: 20px;
+            margin:1rem;
+        }
+    }
+    @media screen and (max-width:992px){
+        .contien-text{
+            color:$red !important;
+        }
+        .tel-text{
+            img{
+                display: none;
+            }
         }
     }
 }

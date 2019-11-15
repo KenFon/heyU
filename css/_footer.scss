@@ -1,0 +1,26 @@
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem;
+    .nav-link{
+        color:$gris !important;
+        font-size: 1.75rem;
+        margin: 1.25rem;
+    }
+    .nav-link:hover{
+        color: $red !important;
+    }
+    .btn-lang{
+        margin-right: 1.5rem;
+        padding: 5px 30px;
+        border-radius: 25px;
+        background-color:#dddddd;
+        border: none;
+        color:$noir;
+    }
+    @media screen and (max-width:992px){
+        flex-direction: column;
+    }
+}
